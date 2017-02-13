@@ -1,0 +1,109 @@
+HTML - HyperText Markup Language. Tag-basedir. Yazilan her bir teg baglanmalidir. Bezi taglar ozlerini bagliyir. En son versiyasi HTML5dir.
+
+1. <!DOCTYPE> - browserin HTML-in hansi versiyasini istifade olundugunu anlasi ucun isledilir. HTML 4.01-de 3 novu oldugu halda, HTML5-de sadece <!DOCTYPE html> yazilir.
+2. <html> - browsere bunun HTML documenti oldugunu gosterir.
+3. <title> - webpage-in adini gostermek, axtarislarda webpage-i tapmaq ucun istifade olunur.
+4. <body> - userin wp-de gorduyu contentler(text,sekil ve s.) bu hisseye yazilir.
+5. <h1> -> <h6> - heading tag(basliq taglari). 1den 6ya kimi siralanir(en boyuk 1, en kicik 6). Hamisi bold-ur.Basliqlari emphasise elemek ucun istifade edilir.
+6. <p> - paraqraf tagidir. Icerisine yazi yazilir.
+7. <br> - taglar arasinda break vemek ucun istifade olunur.
+8. <hr> - taglar arasinda xett cekir.
+9. <!--...--> - comment yazmaq istifade olunur.Wp-de gorsenmir.
+10. <abbr> - qisaltma tagi(abbreverasiya) (meselen: HTML - HyperText Markup Language)
+11. <address> - her-hansi bir meqale ve ya þexsin contact informationlarini gosterdiyi tagdir. Italic olur.
+12. <b> - yazini bold edir(qalin)
+13. <bdi> - (bi-directional isolation). Yazinin istiqametini deyismek ucun istifade edilir.(HTML% support edir)
+14. <bdo> - (bi-directional override). Yazini soldan saga ve ya sagdan sola yazdirir(guzgu effecti deye bilerik). Atributu ve qiymetleri : dir = "ltr" (left-to-right) , dir = "rtl" (right-to-left).
+15. <blockquote> - her-hansi bir menbenin fikrini gostererken istifade olunur.
+16. <cite> - italic olur. Her hansi bir iþin adini gosterir.
+17. <code> - computer codunun bir hissesini gosterir.
+18. <del> - documentden silinmis melumati gosterir. Display zamani sozun ustunden xett cekilir(strikethrough)
+19. <dfn> - definition(izahat) tagi. Bu tag title-la ve ya title-siz istifade oluna, hemcinin istifade olunan soz contentde tekrarlanarsa, <a> tagi ile reference verile biler.
+20. <em> - italic yazir.
+21. <i> - italic yazir.Bu tagdan daha cox istifade olunur.
+22. <ins> - altdan xett cekir
+23. <kbd> - klaviaturadan gelen inputu bildirir.
+24. <mark> - her-hansi yazini highlight etmek ucun istifade olunur.
+25. <meter> - verilmis araliqda olcum aparmaq ucun istifade edilir. value, min,max,high,low kimi atributlari var.
+26. <pre> - bu tag vasitesile girilen yazi eyni sekilde ekrana cixarilir.
+27. <progress> - her-hansi bir isin gedisatini gosterir(meselen her-hansi bir yukleme). value ve max atributlaridir.
+28. <q> - kicik quotation yazarkan istifade olunur. Bu tag outputda girilen contenti dirnaq icinde yazir.
+29. <rp>, <rt>, <ruby> - bu taglar birlikde istifade olunur. HTML5 terefinden support olunur. Browserin heroqlifleri oxumasi ucun istifade edilir. <ruby>de herfin ozu, <rt>de onun izahat ve ya oxunmasi, <rp> ile de onun browser terefinden desteklenmesi temin olunur.
+30. <s> - her-hansi bir content no longer duz olmadiqda istifade olunur.Uzerinden xett cekir.
+31. <samp> - komputer programindan her-hansi bir numune ouputu izah edir.
+32. <small> - yazinin olculerini kiciltmek ucun istifade olunur.
+33. <strong> = <b>
+34. <sub> - index ve s. yazarken istifade edilir(mes, kimyada).
+35. <sup> - power ve s. yazarken istifade olunur(mes, mathda)
+36. <time> - HTML5de yeniliklerden biridir, vaxti ve ya gunu izah edir. Komputer terefinden oxuna bilir. datatime atributudur.
+37. <u> - contentde her-hansi bir sehvlik olduqda(meselen, sehv yazi ve ya hecalama sehvi) onu indicate etmek ucun isledilir.Altdan xett cekir.
+38. <var> - deyisen gostermek ucun istifade edilir, italic olur.
+39. <wbr> - soz ve ya girilen metn cox uzun olduqda browser hemin soz ve ya texti sehv bole biler. Bunun ucun <wbr> tag istifade edilir.
+40. <form> - HTML file-de user inputlari ucun form yaradir. Icerisinde asagisindaki tagler istifade olunur:
+{	41: <input> -  userin data daxil etmesi ucun istifade olunur. value, type,placeholder, name ve s. atributlari var.
+42. <textarea> - col,row atributlari var.Text elave etmek ucun istifade olunur.
+43. <button> - Bu tagla girilen melumat tesdiqlene(Sumbit button), dataya elave oluna biler ve s.
+44. <select> - Bu tagla verilen melumatlar list halinda secim ucun siralanir.
+45. <option> - <select>-in icinde istifade olunur. Secimler bu taga yazilir.
+46. <optgroup> - bu tagla eyni atributalara malik optionlar qruplasdirilir. label atributudur.
+47. <fieldset> - bir-birileri ile related olan datalari bir fomrda saxlayir. <form>-dan sonra yazilir.icerisinde <legend>, <input> ve s. taglar olur.
+48. <legend> - fieldseti adlandirmaq ucun istifade edilir.
+49. <label> - input secmek ucun istifade olunur. Mouse istifadecilerinin rahatligi ucun isledilir.
+	} 
+50. <datalist> - <option>-la istifade olunur. Bu tagla brbasa drop-down list hazilamaq olar.
+51. <keygen> - bu tag istifade olunduqda tesdiqlenen formun public acari serverde , private acari ise locally store olunur(basa dusmedim ne demekdi)
+52. <output> - her-hansi bir hesablamanin neticesini ekrana cixarir.
+53. <iframe> - bu tagle HTML file-a basqa bir documenti embed etmek olar.
+54. <img> - sekil elave etmek ucun istifade olunur. src, alt, usemap atributlari var. alt - sekil upload olmazsa, istifade olunur.
+55. <map> - bu tagdan istifade ederek sekil uzere link elave ede bilerik. Bu zaman usemap tagi <img>de istifade olunmalidir(conjuction yaratmaq ucun).Daxilinde <area> tagi istifade olunur. name atributudur.
+56. <area> - bu tagla seklin daxilinde clickable placeler yerlesdirilir.
+57. <canvas> - HTML5de yenilikdir. Her-hansi bir qrafik cekmek ucun isledilir, scriptsiz islemir.
+58. <figcaption> - her-hansi bir <figure> tagin basligini gosterir.
+59. <figure> - muxtelif qrafik, fiqurlar elave etmek ucun isledilir.
+60. <picture> - icinde 1 nece source ve img yazilir. Bu eger browserde sekil yuklenmirse, diger optionlari secmesi ucundur. en sonda img yazilir.
+61. <audio control> - autoplay,loop ve s. atributlari var. Daxilinde 1 nece optional source yazilir. Mahni, record ve s add etmek ucundur.
+62. <source> -  video, map, ve audioda istifade olunur. 1 nece ferqli secim ucundur.srcset,src atributlaridir.
+63.<track> - novbeti video ve ya audionun gelmesi ucundur.
+64.<video control> - video ve ya film embed etmek ucundur.
+65. <a> - link daxil etmek ucun istifade olunur.
+66. <link> - HTML documentle diger xarici documentler(CSS meselen) elaq qurmaq ucundur.
+67. <nav> - navigation linkleri qurmaq ucundur.
+68. <ul> - sirasiz list yaradir.(unordered list)
+69. <ol> - sirali list yaradir.(ordered list)
+70. <li> - list arqumentini daxil etmek ucundur.
+71. <dl> - <dt> ve <dd> ile birlikde istifade edilir. Tesvir ucun istifade olunur.
+72. <dt> - bu listde verilen itemleri gosterir.
+73. <dd> - verilen itemleri izah edir.
+74. <menu> - sadece firefox destekleyir. Command menusu duzeltmek ucun istifade edilir.
+75. <menuitem> - sadece firefox destekleyir. <menu>-nun icerisinde yazilir.
+76.<table> - cedvel qurmaq ucundur.
+77. <caption> - cedvelin adini gosterir.
+78. <th> - cedveldeki esas hucreleri define edir.
+79. <tr> - cedveldeki siralari gosterir.
+80. <td> - siralara melumat daxil etmek ucundur.(column mentiqinde)
+81. <thead> - cedvel basligini gostermek ucundur.
+82. <tbody> - cedvelin itemlerini gostermek ucundur.
+83. <tfoot> - her-hansi bir hesablamani gostermek ucundur(cedvelde).sonda gelir.
+84. <col> - siralara butov sekilde property aid etmek ucundur. span atributundan istifade olunur.
+85. <colgroup> - columnlari qruplasirir. <col> bu tagin icerisinde yazilir.
+86. <style> - <head>-in icerisinde yazilir. Taglara style vermek ucundur.
+87. <div> - HTML-i bolmek ucun istifade olunur ki, bir qrupa aid olacaq propertyler yalnizca div-e aid edilerek daha asan sekilde yazila biler.
+88. <span> -  yazidan her-hansi bir hisseni ayirmaq ucun istifade edilir.
+89. <header> - documentin ve ya bir hissenin basliqlarini gosterir.
+90. <footer> - documentin copyrightini, contact informationlar, related linkler ve s. bu tagda verilir.
+91. <main> - documentin esas contenti burada verilir.
+92. <section> - documentdeki hisseleri gostermek ucun istifade olunur.
+93. <article> - tek basina da menali olan bir hissedir. Icerisinde muxtelif taglar istifade olunur.
+94. <aside> - etrafda verilen contentle elaqeli her-hansi bir melumati vermekcun istifade edilir.
+95. <details> - contentle elaqeli, istifadecinin gizlede ve ya aciq sekilde gostere bileceyi bir hissedir.
+96. <summary> - content haqqinda summary vermek ucundur, opendir.
+97. <data> - hem userin, hem de komputerin oxuya bileceyi datalar vermek ucundur, value atributdur.
+98. <head> - bu tagda yazilanlar user terefinden gorunmur, yalniz browser onu interpret edir. icerisinde title, meta, link,base ve s. taglar yazilir.
+99. <meta> - bu tag verilen diger taglar haqqinda melumat verir. User gormur, yalniz machine terefinden oxunaqlidir.
+100. <base> - girilen sekil ve ya linklerin haradan goturulduyunu gosteren bir tagdir.
+101. <script> - javascripti yazmaq ucun istifade edilen tagdir. head ve ya body hissesinde yazila bilir. dynamic wpler yazmaq ucundur.
+102. <noscript> - eger browser scripti support etmirse, bu zaman <noscript> tagi dovreye girir.
+103. <embed> - HTML-base olmayan har-hansi bir application-i daxil etmek ucundur.
+104.<object> - embed olunan obyekti gosterir.
+105.<param> - embed olunan obyektin parametrlerini gosterir.
+

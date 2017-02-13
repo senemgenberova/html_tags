@@ -1,0 +1,7 @@
+HTML5 v? diger versiyalar arasýndaký major ferqleri :
+- Evvelki versiyalarda audio ve video taglari yox idi, lakin HTML5de artiq bunlar var;
+- HTML-de browserin cache-i muveqqeti storage kimi istifade olunurdu. HTML5de ise application cache, web SQL db ve web storage istifade edilir;
+- HTML Javascripti web browserde islede bilmirdi, desteklemirdi. HTML5 ise javascriptin backgroundda islemesine imkan verir;
+- HTML kohne browserlerde cox yaxsi isleyir, lakin artiq ekser browserler HTML5-i support edir. Bunlara Firefox, Mozilla, Chrome, Opera, Safari ve s. aiddir.
+- HTML5 hemcinin yeni taglari ile de diger versiyalardan ferqlenir: <article>,<aside>,<header>,<footer>,<main>,<nav>,<section>,<audio>,<embed>,<video> ve s.
+
