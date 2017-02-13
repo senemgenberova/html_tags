@@ -1,4 +1,4 @@
-HTML5 v? diger versiyalar arasýndaký major ferqleri :
+HTML5 ve diger versiyalar arasÄ±ndakÄ± major ferqleri :
 - Evvelki versiyalarda audio ve video taglari yox idi, lakin HTML5de artiq bunlar var;
 - HTML-de browserin cache-i muveqqeti storage kimi istifade olunurdu. HTML5de ise application cache, web SQL db ve web storage istifade edilir;
 - HTML Javascripti web browserde islede bilmirdi, desteklemirdi. HTML5 ise javascriptin backgroundda islemesine imkan verir;
